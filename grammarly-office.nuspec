@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>grammarly-office</id>
+    <version>6.8.253</version>
+    <packageSourceUrl>https://github.com/robmoss2k/grammarly-office</packageSourceUrl>
+    <owners>chocolatey-community,robmoss2k</owners>
+    <title>Grammarly for Microsoft® Office Suite</title>
+    <authors>Alex Shevchenko,Max Lytvyn,Dmytro Lider</authors>
+    <projectUrl>https://www.grammarly.com/office-addin</projectUrl>
+    <iconUrl>https://static.grammarly.com/assets/files/8bcab69b48fd091107bf9cddb0080e87/android-chrome-256x256.png</iconUrl>
+    <copyright>2021 Grammarly Inc.</copyright>
+    <licenseUrl>https://www.grammarly.com/terms</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://support.grammarly.com/hc/en-us</docsUrl>
+    <tags>grammarly-office grammarly office</tags>
+    <summary>Grammarly for Microsoft® Office Suite adds Grammarly to Microsoft® Office.</summary>
+    <description>Adds an add-in to Microsoft® Office Suite for Grammarly to provide in-document digital writing assistance.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
